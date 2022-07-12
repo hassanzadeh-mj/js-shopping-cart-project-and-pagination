@@ -59,8 +59,8 @@ html, body {
 }
 
 .main-header {
-    background-color: rgba(0, 0, 0, .6);
-    background-image: url("../Images/Header Background.jpg");
+    background-color: #393939;
+    /* background-image: url("../Images/Header Background.jpg"); */
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 30px;
@@ -299,6 +299,7 @@ html, body {
     border: none;
     border-radius: .3em;
     font-weight: bold;
+    margin-right: 5px;
 }
 
 .btn-danger:hover {
@@ -391,7 +392,9 @@ html, body {
     width: 80px;
     height: 40px;
     border-radius: 20px;
-    background-color: rgb(39, 38, 38);
+
+    /* background-color: rgb(39, 38, 38); */
+    background-color:  #bcc4c7;
     margin: 20px;
     position: relative;
   }
